@@ -96,3 +96,37 @@ Weather app/
 | `DELETE` | `/api/searches/:id` | Delete a search entry |
 | `GET` | `/api/searches/export/csv` | Export search logs as CSV |
 | `GET` | `/api/searches/export/json` | Export search logs as JSON |
+
+---
+
+## 🚀 Deploying on Render
+
+You can deploy Weather Explorer on **[Render](https://render.com/)** in just a couple of minutes for free.
+
+### Method 1: Using Render Blueprint (Recommended - 1-Click)
+
+1. Sign up or log into [Render](https://dashboard.render.com/).
+2. Click **New +** → **Blueprint**.
+3. Connect your GitHub repository: `rounak138/Weather-explorer`.
+4. Render will automatically detect the [`render.yaml`](render.yaml) file.
+5. Click **Apply**. Render will automatically build the frontend and launch the full-stack server!
+
+### Method 2: Manual Web Service Setup
+
+If you prefer setting it up manually on Render:
+1. Go to your [Render Dashboard](https://dashboard.render.com/).
+2. Click **New +** → **Web Service**.
+3. Select **Build and deploy from a Git repository** and pick `rounak138/Weather-explorer`.
+4. Configure the service:
+   - **Name**: `weather-explorer`
+   - **Language**: `Node`
+   - **Branch**: `main`
+   - **Build Command**: `npm run build`
+   - **Start Command**: `npm start`
+   - **Plan Type**: `Free`
+5. *(Optional)* In **Environment Variables**, you can add:
+   - `MONGODB_URI`: Your MongoDB Atlas connection string (if not set, it will automatically fallback to local file storage).
+   - `YOUTUBE_API_KEY`: Your YouTube API key (optional).
+   - `NODE_ENV`: `production`
+6. Click **Deploy Web Service**.
+
