@@ -1,0 +1,1226 @@
+[
+  {
+    "_id": "bbf04acd-4287-4370-a700-30e9e0ba2534",
+    "id": "bbf04acd-4287-4370-a700-30e9e0ba2534",
+    "locationName": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6895,
+    "longitude": 139.69171,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 28.5,
+        "humidity": 68,
+        "windSpeed": 4.6,
+        "weatherCode": 2
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 2,
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "windSpeedMax": 4.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 30.8,
+          "tempMin": 23.3,
+          "windSpeedMax": 6.2,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 51,
+          "tempMax": 28.5,
+          "tempMin": 24.5,
+          "windSpeedMax": 6.4,
+          "precipitation": 1
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 63,
+          "tempMax": 29.1,
+          "tempMin": 20.9,
+          "windSpeedMax": 6.3,
+          "precipitation": 22.72
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 81,
+          "tempMax": 26.9,
+          "tempMin": 21.5,
+          "windSpeedMax": 11,
+          "precipitation": 25
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 96,
+          "tempMax": 24.7,
+          "tempMin": 21.1,
+          "windSpeedMax": 16.3,
+          "precipitation": 83.6
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Rain expected during this period. Keep an umbrella handy.",
+          "Warm temperatures expected. Pack light clothes and stay hydrated."
+        ],
+        "bestDay": {
+          "date": "2026-09-01",
+          "formattedDate": "Tuesday, Sep 1",
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "2b9txcAt4e0",
+          "title": "Tokyo Travel Guide - 10 Best Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/2b9txcAt4e0/0.jpg"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Tokyo City Tour & Food Spots",
+          "channelTitle": "Travel Notes",
+          "thumbnail": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T07:31:11.156Z",
+    "updatedAt": "2026-09-01T07:31:11.156Z"
+  },
+  {
+    "_id": "a72a04b7-2259-4fac-b55f-3b4d8a365db6",
+    "id": "a72a04b7-2259-4fac-b55f-3b4d8a365db6",
+    "locationName": "Paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 15.8,
+        "humidity": 77,
+        "windSpeed": 4.9,
+        "weatherCode": 0
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 22.8,
+          "tempMin": 14.9,
+          "windSpeedMax": 8.1,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 24.6,
+          "tempMin": 16.4,
+          "windSpeedMax": 8.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 3,
+          "tempMax": 26.7,
+          "tempMin": 16.2,
+          "windSpeedMax": 11.9,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 2,
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "windSpeedMax": 13,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 24.3,
+          "tempMin": 16.8,
+          "windSpeedMax": 10.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 3,
+          "tempMax": 29.1,
+          "tempMin": 14,
+          "windSpeedMax": 9.8,
+          "precipitation": 0
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Mostly dry forecast — great for exploring outdoors."
+        ],
+        "bestDay": {
+          "date": "2026-09-04",
+          "formattedDate": "Friday, Sep 4",
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "AQ6G795rV38",
+          "title": "Paris Travel Guide - Top 10 Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/AQ6G795rV38/0.jpg"
+        },
+        {
+          "id": "FEdVlh0bX0Q",
+          "title": "What to Do in Paris | Vacation Travel Guide",
+          "channelTitle": "Expedia",
+          "thumbnail": "https://img.youtube.com/vi/FEdVlh0bX0Q/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T07:29:37.148Z",
+    "updatedAt": "2026-09-01T07:29:37.148Z"
+  },
+  {
+    "_id": "ddd6a6b8-c7b3-48fa-a4df-adfb92390873",
+    "id": "ddd6a6b8-c7b3-48fa-a4df-adfb92390873",
+    "locationName": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6895,
+    "longitude": 139.69171,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 28.7,
+        "humidity": 66,
+        "windSpeed": 4.1,
+        "weatherCode": 2
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 2,
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "windSpeedMax": 4.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 30.8,
+          "tempMin": 23.3,
+          "windSpeedMax": 6.2,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 51,
+          "tempMax": 28.5,
+          "tempMin": 24.5,
+          "windSpeedMax": 6.4,
+          "precipitation": 1
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 63,
+          "tempMax": 29.1,
+          "tempMin": 20.9,
+          "windSpeedMax": 6.3,
+          "precipitation": 22.72
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 81,
+          "tempMax": 26.9,
+          "tempMin": 21.5,
+          "windSpeedMax": 11,
+          "precipitation": 25
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 96,
+          "tempMax": 24.7,
+          "tempMin": 21.1,
+          "windSpeedMax": 16.3,
+          "precipitation": 83.6
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Rain expected during this period. Keep an umbrella handy.",
+          "Warm temperatures expected. Pack light clothes and stay hydrated."
+        ],
+        "bestDay": {
+          "date": "2026-09-01",
+          "formattedDate": "Tuesday, Sep 1",
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "2b9txcAt4e0",
+          "title": "Tokyo Travel Guide - 10 Best Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/2b9txcAt4e0/0.jpg"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Tokyo City Tour & Food Spots",
+          "channelTitle": "Travel Notes",
+          "thumbnail": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T07:24:54.284Z",
+    "updatedAt": "2026-09-01T07:24:54.284Z"
+  },
+  {
+    "_id": "bc2600d0-9a19-4420-af33-ca205d4847c6",
+    "id": "bc2600d0-9a19-4420-af33-ca205d4847c6",
+    "locationName": "Paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 15.8,
+        "humidity": 77,
+        "windSpeed": 4.9,
+        "weatherCode": 0
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 22.8,
+          "tempMin": 14.9,
+          "windSpeedMax": 8.1,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 24.6,
+          "tempMin": 16.4,
+          "windSpeedMax": 8.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 3,
+          "tempMax": 26.7,
+          "tempMin": 16.2,
+          "windSpeedMax": 11.9,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 2,
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "windSpeedMax": 13,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 24.3,
+          "tempMin": 16.8,
+          "windSpeedMax": 10.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 3,
+          "tempMax": 29.1,
+          "tempMin": 14,
+          "windSpeedMax": 9.8,
+          "precipitation": 0
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Mostly dry forecast — great for exploring outdoors."
+        ],
+        "bestDay": {
+          "date": "2026-09-04",
+          "formattedDate": "Friday, Sep 4",
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "AQ6G795rV38",
+          "title": "Paris Travel Guide - Top 10 Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/AQ6G795rV38/0.jpg"
+        },
+        {
+          "id": "FEdVlh0bX0Q",
+          "title": "What to Do in Paris | Vacation Travel Guide",
+          "channelTitle": "Expedia",
+          "thumbnail": "https://img.youtube.com/vi/FEdVlh0bX0Q/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T07:23:56.775Z",
+    "updatedAt": "2026-09-01T07:23:56.775Z"
+  },
+  {
+    "_id": "f443d6a1-f7db-4d3f-8d09-ed3c3f18d30a",
+    "id": "f443d6a1-f7db-4d3f-8d09-ed3c3f18d30a",
+    "locationName": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6895,
+    "longitude": 139.69171,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 28.7,
+        "humidity": 66,
+        "windSpeed": 4.1,
+        "weatherCode": 2
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 2,
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "windSpeedMax": 4.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 30.8,
+          "tempMin": 23.3,
+          "windSpeedMax": 6.2,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 51,
+          "tempMax": 28.5,
+          "tempMin": 24.5,
+          "windSpeedMax": 6.4,
+          "precipitation": 1
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 63,
+          "tempMax": 29.1,
+          "tempMin": 20.9,
+          "windSpeedMax": 6.3,
+          "precipitation": 22.72
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 81,
+          "tempMax": 26.9,
+          "tempMin": 21.5,
+          "windSpeedMax": 11,
+          "precipitation": 25
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 96,
+          "tempMax": 24.7,
+          "tempMin": 21.1,
+          "windSpeedMax": 16.3,
+          "precipitation": 83.6
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Rain expected during this period. Keep an umbrella handy.",
+          "Warm temperatures expected. Pack light clothes and stay hydrated."
+        ],
+        "bestDay": {
+          "date": "2026-09-01",
+          "formattedDate": "Tuesday, Sep 1",
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "2b9txcAt4e0",
+          "title": "Tokyo Travel Guide - 10 Best Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/2b9txcAt4e0/0.jpg"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Tokyo City Tour & Food Spots",
+          "channelTitle": "Travel Notes",
+          "thumbnail": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T07:19:30.227Z",
+    "updatedAt": "2026-09-01T07:19:30.227Z"
+  },
+  {
+    "_id": "4bc1ef7f-d216-432f-9245-d9baf7e4b1f8",
+    "id": "4bc1ef7f-d216-432f-9245-d9baf7e4b1f8",
+    "locationName": "Paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 15.8,
+        "humidity": 77,
+        "windSpeed": 4.9,
+        "weatherCode": 0
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 22.8,
+          "tempMin": 14.9,
+          "windSpeedMax": 8.1,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 24.6,
+          "tempMin": 16.4,
+          "windSpeedMax": 8.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 3,
+          "tempMax": 26.7,
+          "tempMin": 16.2,
+          "windSpeedMax": 11.9,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 2,
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "windSpeedMax": 13,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 24.3,
+          "tempMin": 16.8,
+          "windSpeedMax": 10.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 3,
+          "tempMax": 29.1,
+          "tempMin": 14,
+          "windSpeedMax": 9.8,
+          "precipitation": 0
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Mostly dry forecast — great for exploring outdoors."
+        ],
+        "bestDay": {
+          "date": "2026-09-04",
+          "formattedDate": "Friday, Sep 4",
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "AQ6G795rV38",
+          "title": "Paris Travel Guide - Top 10 Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/AQ6G795rV38/0.jpg"
+        },
+        {
+          "id": "FEdVlh0bX0Q",
+          "title": "What to Do in Paris | Vacation Travel Guide",
+          "channelTitle": "Expedia",
+          "thumbnail": "https://img.youtube.com/vi/FEdVlh0bX0Q/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T07:16:55.281Z",
+    "updatedAt": "2026-09-01T07:16:55.281Z"
+  },
+  {
+    "_id": "49f6c200-9433-40f4-a2cf-139bf5849007",
+    "id": "49f6c200-9433-40f4-a2cf-139bf5849007",
+    "locationName": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6895,
+    "longitude": 139.69171,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 29,
+        "humidity": 68,
+        "windSpeed": 4,
+        "weatherCode": 2
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 2,
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "windSpeedMax": 4.5,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 30.8,
+          "tempMin": 23.3,
+          "windSpeedMax": 6.3,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 51,
+          "tempMax": 28.5,
+          "tempMin": 24.5,
+          "windSpeedMax": 6.4,
+          "precipitation": 1
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 63,
+          "tempMax": 29.1,
+          "tempMin": 20.9,
+          "windSpeedMax": 7.4,
+          "precipitation": 22.72
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 81,
+          "tempMax": 26.9,
+          "tempMin": 21.5,
+          "windSpeedMax": 10.7,
+          "precipitation": 25
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 96,
+          "tempMax": 24.7,
+          "tempMin": 21.1,
+          "windSpeedMax": 15.2,
+          "precipitation": 83.6
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Rain expected during this period. Keep an umbrella handy.",
+          "Warm temperatures expected. Pack light clothes and stay hydrated."
+        ],
+        "bestDay": {
+          "date": "2026-09-01",
+          "formattedDate": "Tuesday, Sep 1",
+          "tempMax": 29.1,
+          "tempMin": 22,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "2b9txcAt4e0",
+          "title": "Tokyo Travel Guide - 10 Best Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/2b9txcAt4e0/0.jpg"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Tokyo City Tour & Food Spots",
+          "channelTitle": "Travel Notes",
+          "thumbnail": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T06:50:09.298Z",
+    "updatedAt": "2026-09-01T06:50:09.298Z"
+  },
+  {
+    "_id": "7c0308d1-a75b-4db7-b51a-d975f1fc9abd",
+    "id": "7c0308d1-a75b-4db7-b51a-d975f1fc9abd",
+    "locationName": "America",
+    "country": "The Netherlands",
+    "latitude": 51.43667,
+    "longitude": 5.97917,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 15.9,
+        "humidity": 97,
+        "windSpeed": 11.5,
+        "weatherCode": 3
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 51,
+          "tempMax": 20.2,
+          "tempMin": 14.4,
+          "windSpeedMax": 13,
+          "precipitation": 0.4
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 21.4,
+          "tempMin": 12.2,
+          "windSpeedMax": 13.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 55,
+          "tempMax": 21.8,
+          "tempMin": 16.7,
+          "windSpeedMax": 21.3,
+          "precipitation": 3.2
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 51,
+          "tempMax": 24.5,
+          "tempMin": 18.4,
+          "windSpeedMax": 24.2,
+          "precipitation": 1
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 21.9,
+          "tempMin": 15.9,
+          "windSpeedMax": 15.6,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 53,
+          "tempMax": 23.8,
+          "tempMin": 13.5,
+          "windSpeedMax": 15.9,
+          "precipitation": 3
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Rain expected during this period. Keep an umbrella handy.",
+          "Breezy conditions forecast. Take care during outdoor excursions."
+        ],
+        "bestDay": {
+          "date": "2026-09-05",
+          "formattedDate": "Saturday, Sep 5",
+          "tempMax": 21.9,
+          "tempMin": 15.9,
+          "reason": "This date offers the mildest conditions within your selected date range."
+        }
+      },
+      "videos": [
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "America Travel Guide - Highlights & Itinerary",
+          "channelTitle": "Wanderlust Travels",
+          "thumbnail": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "id": "z9B2z4b2Z7c",
+          "title": "Top Things to Do in America",
+          "channelTitle": "Global Explorer",
+          "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T06:49:53.227Z",
+    "updatedAt": "2026-09-01T06:49:53.227Z"
+  },
+  {
+    "_id": "db9f24c5-0e4d-4aaa-bdea-cd39234472fa",
+    "id": "db9f24c5-0e4d-4aaa-bdea-cd39234472fa",
+    "locationName": "Paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 15.3,
+        "humidity": 80,
+        "windSpeed": 4.6,
+        "weatherCode": 1
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 22.8,
+          "tempMin": 14.9,
+          "windSpeedMax": 8.1,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 24.6,
+          "tempMin": 16.4,
+          "windSpeedMax": 8.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 3,
+          "tempMax": 26.7,
+          "tempMin": 16.2,
+          "windSpeedMax": 11.9,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 2,
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "windSpeedMax": 13,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 24.3,
+          "tempMin": 16.8,
+          "windSpeedMax": 10.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 3,
+          "tempMax": 29.1,
+          "tempMin": 14,
+          "windSpeedMax": 9.8,
+          "precipitation": 0
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Mostly dry forecast — great for exploring outdoors."
+        ],
+        "bestDay": {
+          "date": "2026-09-04",
+          "formattedDate": "Friday, Sep 4",
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "AQ6G795rV38",
+          "title": "Paris Travel Guide - Top 10 Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/AQ6G795rV38/0.jpg"
+        },
+        {
+          "id": "FEdVlh0bX0Q",
+          "title": "What to Do in Paris | Vacation Travel Guide",
+          "channelTitle": "Expedia",
+          "thumbnail": "https://img.youtube.com/vi/FEdVlh0bX0Q/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T06:49:37.689Z",
+    "updatedAt": "2026-09-01T06:49:37.689Z"
+  },
+  {
+    "_id": "374d9d39-e6e5-47b6-b377-a2ee690d7566",
+    "id": "374d9d39-e6e5-47b6-b377-a2ee690d7566",
+    "locationName": "London",
+    "country": "United Kingdom",
+    "latitude": 51.50853,
+    "longitude": -0.12574,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-05T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 21.9,
+        "humidity": 52,
+        "windSpeed": 15.5,
+        "weatherCode": 1
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 21.1,
+          "tempMin": 13.7,
+          "windSpeedMax": 13.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 21.2,
+          "tempMin": 16.2,
+          "windSpeedMax": 24.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 3,
+          "tempMax": 22.4,
+          "tempMin": 17.8,
+          "windSpeedMax": 18.4,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 51,
+          "tempMax": 25.7,
+          "tempMin": 18,
+          "windSpeedMax": 23,
+          "precipitation": 0.3
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 53,
+          "tempMax": 22.6,
+          "tempMin": 17.8,
+          "windSpeedMax": 12.2,
+          "precipitation": 1.8
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Rain expected during this period. Keep an umbrella handy.",
+          "Breezy conditions forecast. Take care during outdoor excursions."
+        ],
+        "bestDay": {
+          "date": "2026-09-03",
+          "formattedDate": "Thursday, Sep 3",
+          "tempMax": 22.4,
+          "tempMin": 17.8,
+          "reason": "This date offers the mildest conditions within your selected date range."
+        }
+      },
+      "videos": [
+        {
+          "id": "45ETZ1xvHS0",
+          "title": "London Travel Guide - 10 Best Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/45ETZ1xvHS0/0.jpg"
+        },
+        {
+          "id": "iM_Kz-1CtSg",
+          "title": "London Travel Guide | 3-Day Itinerary",
+          "channelTitle": "Vagabrothers",
+          "thumbnail": "https://img.youtube.com/vi/iM_Kz-1CtSg/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-08-31T13:03:43.266Z",
+    "updatedAt": "2026-08-31T13:03:43.266Z"
+  },
+  {
+    "_id": "7e4edc7a-1d9c-4f9d-b249-5fa8ac3755b6",
+    "id": "7e4edc7a-1d9c-4f9d-b249-5fa8ac3755b6",
+    "locationName": "Dehradun",
+    "country": "India",
+    "latitude": 30.32443,
+    "longitude": 78.03392,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-05T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 24.2,
+        "humidity": 100,
+        "windSpeed": 2.8,
+        "weatherCode": 51
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 95,
+          "tempMax": 26.5,
+          "tempMin": 22.4,
+          "windSpeedMax": 14.3,
+          "precipitation": 20.7
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 95,
+          "tempMax": 27.6,
+          "tempMin": 22.5,
+          "windSpeedMax": 6.5,
+          "precipitation": 6.9
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 51,
+          "tempMax": 29.4,
+          "tempMin": 22.8,
+          "windSpeedMax": 11.7,
+          "precipitation": 0.4
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 53,
+          "tempMax": 28.1,
+          "tempMin": 23.2,
+          "windSpeedMax": 4.5,
+          "precipitation": 3
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 80,
+          "tempMax": 25.6,
+          "tempMin": 23.3,
+          "windSpeedMax": 4.6,
+          "precipitation": 10.8
+        }
+      ],
+      "insights": {
+        "tips": [
+          "☔ Rain is expected during your dates. Bring an umbrella or rain gear."
+        ],
+        "bestDay": {
+          "date": "2026-09-03",
+          "formattedDate": "Thursday, Sep 3",
+          "tempMax": 29.4,
+          "tempMin": 22.8,
+          "reason": "This day is expected to have the most tolerable conditions in the forecast range."
+        }
+      },
+      "videos": [
+        {
+          "id": "vA6N9x2pG_4",
+          "title": "Dehradun Travel Guide | Uttarakhand Tourism",
+          "channelTitle": "India Travel",
+          "thumbnail": "https://img.youtube.com/vi/vA6N9x2pG_4/0.jpg"
+        },
+        {
+          "id": "uH3XwG4nK_8",
+          "title": "Best Places to Visit in Dehradun",
+          "channelTitle": "Travel Tech",
+          "thumbnail": "https://img.youtube.com/vi/uH3XwG4nK_8/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-08-31T12:56:13.787Z",
+    "updatedAt": "2026-08-31T12:56:13.787Z"
+  },
+  {
+    "_id": "07f6ef4b-1e36-4370-86e3-ec8f93b16c6c",
+    "id": "07f6ef4b-1e36-4370-86e3-ec8f93b16c6c",
+    "locationName": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6895,
+    "longitude": 139.69171,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-05T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 24,
+        "humidity": 82,
+        "windSpeed": 2.4,
+        "weatherCode": 2
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 2,
+          "tempMax": 30.4,
+          "tempMin": 22.7,
+          "windSpeedMax": 5.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 31.5,
+          "tempMin": 23.6,
+          "windSpeedMax": 6.2,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 53,
+          "tempMax": 29.9,
+          "tempMin": 25.1,
+          "windSpeedMax": 10.8,
+          "precipitation": 0.8
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 53,
+          "tempMax": 31.5,
+          "tempMin": 22.8,
+          "windSpeedMax": 14.3,
+          "precipitation": 2.7
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 80,
+          "tempMax": 24.3,
+          "tempMin": 20.7,
+          "windSpeedMax": 9.9,
+          "precipitation": 33.5
+        }
+      ],
+      "insights": {
+        "tips": [
+          "☔ Rain is expected during your dates. Bring an umbrella or rain gear.",
+          "🌡️ Hot afternoons expected. Keep hydrated and wear sunscreen."
+        ],
+        "bestDay": {
+          "date": "2026-09-01",
+          "formattedDate": "Tuesday, Sep 1",
+          "tempMax": 30.4,
+          "tempMin": 22.7,
+          "reason": "Clear skies and comfortable temperatures make this the ideal day for sightseeing."
+        }
+      },
+      "videos": [
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Tokyo Travel Guide - Ultimate Sightseeing Itinerary",
+          "channelTitle": "Wanderlust Travels",
+          "thumbnail": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "id": "z9B2z4b2Z7c",
+          "title": "Top 10 Things to Do in Tokyo",
+          "channelTitle": "Global Explorer",
+          "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "createdAt": "2026-08-31T12:54:01.149Z",
+    "updatedAt": "2026-08-31T12:54:01.149Z"
+  },
+  {
+    "_id": "27ca6980-5434-4b7d-8715-8040a271e35f",
+    "id": "27ca6980-5434-4b7d-8715-8040a271e35f",
+    "locationName": "Paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-05T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 21.6,
+        "humidity": 54,
+        "windSpeed": 22.2,
+        "weatherCode": 61
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 23.3,
+          "tempMin": 15.1,
+          "windSpeedMax": 7.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 24,
+          "tempMin": 16.1,
+          "windSpeedMax": 9.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 2,
+          "tempMax": 27.7,
+          "tempMin": 16,
+          "windSpeedMax": 10.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 3,
+          "tempMax": 30.2,
+          "tempMin": 17.5,
+          "windSpeedMax": 12.3,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 23.9,
+          "tempMin": 17.8,
+          "windSpeedMax": 6.9,
+          "precipitation": 0
+        }
+      ],
+      "insights": {
+        "tips": [
+          "☀️ Dry conditions expected. Good for outdoor activities.",
+          "🌡️ Hot afternoons expected. Keep hydrated and wear sunscreen."
+        ],
+        "bestDay": {
+          "date": "2026-09-03",
+          "formattedDate": "Thursday, Sep 3",
+          "tempMax": 27.7,
+          "tempMin": 16,
+          "reason": "Clear skies and comfortable temperatures make this the ideal day for sightseeing."
+        }
+      },
+      "videos": [
+        {
+          "id": "AQ6G795rV38",
+          "title": "Paris Travel Guide - 10 Best Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/AQ6G795rV38/0.jpg"
+        },
+        {
+          "id": "FEdVlh0bX0Q",
+          "title": "Paris Travel Guide | What to do in Paris",
+          "channelTitle": "Expedia",
+          "thumbnail": "https://img.youtube.com/vi/FEdVlh0bX0Q/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-08-31T12:50:39.690Z",
+    "updatedAt": "2026-08-31T12:50:39.690Z"
+  }
+]
