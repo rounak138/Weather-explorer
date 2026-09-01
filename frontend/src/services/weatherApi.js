@@ -3,9 +3,12 @@ import axios from 'axios';
 // Dynamically determine the backend API URL
 // In production on the same domain, default to '/api'
 // In local development or separate domain, default to VITE_API_URL or 'http://localhost:5000/api'
-const API_BASE_URL =
+const rawUrl =
   import.meta.env.VITE_API_URL ||
-  (import.meta.env.PROD ? '/api' : 'http://localhost:5000/api');
+  (import.meta.env.PROD
+    ? 'https://weather-explorer-2.onrender.com/api'
+    : 'http://localhost:5000/api');
+const API_BASE_URL = rawUrl.replace(/\/+$/, '');
 
 const api = axios.create({
   baseURL: API_BASE_URL,
