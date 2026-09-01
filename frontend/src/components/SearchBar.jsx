@@ -159,6 +159,29 @@ export default function SearchBar({ onSearch, loading }) {
             <span>My Location</span>
           </button>
         </div>
+
+        {/* Popular City Quick-Select Pills */}
+        <div className="pt-2">
+          <p className="text-[11px] text-slate-400 mb-1.5 font-medium">Popular destinations:</p>
+          <div className="flex flex-wrap gap-1.5">
+            {['Paris', 'Tokyo', 'London', 'New York', 'Dubai'].map((city) => (
+              <button
+                key={city}
+                type="button"
+                onClick={() => {
+                  setLocation(city);
+                  if (startDate && endDate) {
+                    onSearch(city, startDate, endDate);
+                  }
+                }}
+                disabled={loading}
+                className="text-xs px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-blue-600/30 hover:border-blue-500/50 border border-slate-700 text-slate-300 transition-colors"
+              >
+                {city}
+              </button>
+            ))}
+          </div>
+        </div>
       </form>
     </div>
   );

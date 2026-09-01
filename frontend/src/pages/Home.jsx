@@ -24,8 +24,19 @@ export default function Home() {
     try {
       const data = await weatherApi.getHistory();
       setHistory(data);
-      if (setInitialActive && data.length > 0 && !activeSearch) {
-        setActiveSearch(data[0]);
+      if (setInitialActive) {
+        if (data.length > 0 && !activeSearch) {
+          setActiveSearch(data[0]);
+        } else if (data.length === 0 && !activeSearch) {
+          // Auto-fetch default initial city so page isn't empty
+          const today = new Date();
+          const tzOffset = today.getTimezoneOffset() * 60000;
+          const start = new Date(today.getTime() - tzOffset).toISOString().split('T')[0];
+          const end = new Date(today.getTime() - tzOffset + 5 * 24 * 60 * 60 * 1000)
+            .toISOString()
+            .split('T')[0];
+          handleSearch('Paris', start, end);
+        }
       }
     } catch (err) {
       console.error('Could not load history:', err);

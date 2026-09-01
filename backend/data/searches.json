@@ -1,5 +1,101 @@
 [
   {
+    "_id": "2056c324-162a-4903-af44-1c8087f00bad",
+    "id": "2056c324-162a-4903-af44-1c8087f00bad",
+    "locationName": "Paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "startDate": "2026-09-01T00:00:00.000Z",
+    "endDate": "2026-09-06T00:00:00.000Z",
+    "weatherData": {
+      "current": {
+        "temperature": 17.3,
+        "humidity": 70,
+        "windSpeed": 5.5,
+        "weatherCode": 0
+      },
+      "forecast": [
+        {
+          "date": "2026-09-01",
+          "weatherCode": 3,
+          "tempMax": 23.1,
+          "tempMin": 15.1,
+          "windSpeedMax": 8.2,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-02",
+          "weatherCode": 3,
+          "tempMax": 24.7,
+          "tempMin": 16.7,
+          "windSpeedMax": 7.8,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-03",
+          "weatherCode": 3,
+          "tempMax": 26.7,
+          "tempMin": 16.5,
+          "windSpeedMax": 11.9,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-04",
+          "weatherCode": 2,
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "windSpeedMax": 13,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "tempMax": 24.3,
+          "tempMin": 16.8,
+          "windSpeedMax": 10.7,
+          "precipitation": 0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 3,
+          "tempMax": 29.1,
+          "tempMin": 14,
+          "windSpeedMax": 9.8,
+          "precipitation": 0
+        }
+      ],
+      "insights": {
+        "tips": [
+          "Mostly dry forecast — great for exploring outdoors."
+        ],
+        "bestDay": {
+          "date": "2026-09-04",
+          "formattedDate": "Friday, Sep 4",
+          "tempMax": 29.5,
+          "tempMin": 18.5,
+          "reason": "Pleasant temperatures and clearer skies make this the best day for outdoor plans."
+        }
+      },
+      "videos": [
+        {
+          "id": "AQ6G795rV38",
+          "title": "Paris Travel Guide - Top 10 Places to Visit",
+          "channelTitle": "Touropia",
+          "thumbnail": "https://img.youtube.com/vi/AQ6G795rV38/0.jpg"
+        },
+        {
+          "id": "FEdVlh0bX0Q",
+          "title": "What to Do in Paris | Vacation Travel Guide",
+          "channelTitle": "Expedia",
+          "thumbnail": "https://img.youtube.com/vi/FEdVlh0bX0Q/0.jpg"
+        }
+      ]
+    },
+    "createdAt": "2026-09-01T08:27:53.208Z",
+    "updatedAt": "2026-09-01T08:27:53.208Z"
+  },
+  {
     "_id": "bbf04acd-4287-4370-a700-30e9e0ba2534",
     "id": "bbf04acd-4287-4370-a700-30e9e0ba2534",
     "locationName": "Tokyo",
