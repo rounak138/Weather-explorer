@@ -2,37 +2,61 @@ import axios from 'axios';
 
 export async function getWeatherData(latitude, longitude, startDate, endDate) {
   try {
-    const { data } = await axios.get('https://api.open-meteo.com/v1/forecast', {
-      params: {
+    let responseData;
+
+    try {
+      const params = {
         latitude,
         longitude,
-        start_date: startDate,
-        end_date: endDate,
         current: 'temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code',
         daily: 'weather_code,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,precipitation_sum',
         timezone: 'auto',
-      },
-    });
+      };
 
-    const current = data.current
+      if (startDate && endDate) {
+        params.start_date = startDate;
+        params.end_date = endDate;
+      } else {
+        params.forecast_days = 7;
+      }
+
+      const { data } = await axios.get('https://api.open-meteo.com/v1/forecast', { params });
+      responseData = data;
+    } catch (apiErr) {
+      console.warn('Open-Meteo specific range failed, falling back to 7-day forecast:', apiErr.response?.data?.reason || apiErr.message);
+      // Fallback to standard 7-day forecast if custom date range was rejected by provider
+      const { data } = await axios.get('https://api.open-meteo.com/v1/forecast', {
+        params: {
+          latitude,
+          longitude,
+          current: 'temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code',
+          daily: 'weather_code,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,precipitation_sum',
+          timezone: 'auto',
+          forecast_days: 7,
+        },
+      });
+      responseData = data;
+    }
+
+    const current = responseData.current
       ? {
-          temperature: data.current.temperature_2m,
-          humidity: data.current.relative_humidity_2m,
-          windSpeed: data.current.wind_speed_10m,
-          weatherCode: data.current.weather_code,
+          temperature: responseData.current.temperature_2m,
+          humidity: responseData.current.relative_humidity_2m,
+          windSpeed: responseData.current.wind_speed_10m,
+          weatherCode: responseData.current.weather_code,
         }
       : null;
 
     const forecast = [];
-    if (data.daily?.time) {
-      for (let i = 0; i < data.daily.time.length; i++) {
+    if (responseData.daily?.time) {
+      for (let i = 0; i < responseData.daily.time.length; i++) {
         forecast.push({
-          date: data.daily.time[i],
-          weatherCode: data.daily.weather_code[i],
-          tempMax: data.daily.temperature_2m_max[i],
-          tempMin: data.daily.temperature_2m_min[i],
-          windSpeedMax: data.daily.wind_speed_10m_max[i],
-          precipitation: data.daily.precipitation_sum[i],
+          date: responseData.daily.time[i],
+          weatherCode: responseData.daily.weather_code[i],
+          tempMax: responseData.daily.temperature_2m_max[i],
+          tempMin: responseData.daily.temperature_2m_min[i],
+          windSpeedMax: responseData.daily.wind_speed_10m_max[i],
+          precipitation: responseData.daily.precipitation_sum[i],
         });
       }
     }
@@ -45,8 +69,8 @@ export async function getWeatherData(latitude, longitude, startDate, endDate) {
       insights,
     };
   } catch (err) {
-    console.error('Weather API error:', err.message);
-    const serviceErr = new Error('Failed to fetch weather forecast.');
+    console.error('Weather API error:', err.response?.data || err.message);
+    const serviceErr = new Error('Failed to fetch weather forecast. Please try again.');
     serviceErr.statusCode = 503;
     throw serviceErr;
   }
