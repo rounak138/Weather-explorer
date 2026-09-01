@@ -24,6 +24,19 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', uptime: process.uptime() });
 });
 
+// Root landing endpoint
+app.get('/', (req, res) => {
+  res.json({
+    status: 'online',
+    message: 'Weather Explorer Backend API is running successfully!',
+    endpoints: {
+      health: '/health',
+      weatherSearch: 'POST /api/weather/search',
+      history: 'GET /api/searches',
+    },
+  });
+});
+
 // API routes
 app.use('/api', apiRoutes);
 
